@@ -1,0 +1,9 @@
+[signing]
+db_file = "/etc/chainflip/data.db"
+
+
+sudo systemctl start chainflip-node
+
+sudo systemctl status chainflip-node
+
+tail -f /var/log/chainflip-node.log
